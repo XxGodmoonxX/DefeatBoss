@@ -756,7 +756,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 10}
-  scoreText: {fileID: 0}
   m_HitTransform: {fileID: 0}
   maxRayDistance: 30
   collisionLayer:
@@ -1792,7 +1791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &421512811
 Transform:
   m_ObjectHideFlags: 0
