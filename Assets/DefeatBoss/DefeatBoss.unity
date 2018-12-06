@@ -618,6 +618,7 @@ GameObject:
   - component: {fileID: 118423496}
   - component: {fileID: 118423497}
   - component: {fileID: 118423498}
+  - component: {fileID: 118423499}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Cube
@@ -731,13 +732,31 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 118423491}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c107b859703f406ba23acaacecc78ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 10}
   scoreText: {fileID: 582718190}
+  m_HitTransform: {fileID: 0}
+  maxRayDistance: 30
+  collisionLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+--- !u!114 &118423499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 118423491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4602b0d7d1949a590692321818968f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 10}
+  scoreText: {fileID: 0}
   m_HitTransform: {fileID: 0}
   maxRayDistance: 30
   collisionLayer:
@@ -6413,7 +6432,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1788669130}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b2be1c5634b84e8080b2a2491eca344, type: 3}
   m_Name: 
